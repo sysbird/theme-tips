@@ -1,10 +1,10 @@
 # WordPressのテーマを公式ディレクトリに登録するためのヒント
 
-## ガイドライン　　
+## ガイドライン  
 [Guidelines](https://make.wordpress.org/themes/handbook/review/)
 
-必須機能　　
-必須のテンプレートタグやCSSクラスがあります　　
+必須機能  
+必須のテンプレートタグやCSSクラスがあります  
 [Required](https://make.wordpress.org/themes/handbook/review/required/)
 
 コーディング規約
@@ -24,28 +24,28 @@
 [Theme Unit Test](https://codex.wordpress.org/Theme_Unit_Test)
 [日本語版テストデータ](https://raw.githubusercontent.com/jawordpressorg/theme-test-data-ja/master/wordpress-theme-test-date-ja.xml)
 
-どちらかをダウンロードし、テーマを開発中のサイトにインポートします　　
-このなかにある投稿やコメント、画像、動画などが正常に表示されるか確認します　　
+どちらかをダウンロードし、テーマを開発中のサイトにインポートします  
+このなかにある投稿やコメント、画像、動画などが正常に表示されるか確認します  
 
-## Theme Check　　
-最新の WordPress 標準および慣例のすべてに対してテーマをテストしてくれるプラグイン　　
+## Theme Check  
+最新の WordPress 標準および慣例のすべてに対してテーマをテストしてくれるプラグイン  
 [Theme check plugin](https://ja.wordpress.org/plugins/theme-check/)
 
-このチェックをすべてクリアしてから、テーマを審査に出します　　
-テーマチェックは、WordPressをデバッグモードにして確認します　　
+このチェックをすべてクリアしてから、テーマを審査に出します  
+テーマチェックは、WordPressをデバッグモードにして確認します  
 
 ** デバッグモード　**
-wp-config.php のなかで　　
+wp-config.php のなかで  
 ```
-define('WP_DEBUG', true);　　
+define('WP_DEBUG', true);  
 ```
-と書き換えます。　　
-WP_DEBUGの項目がない場合は、「 編集が必要なのはここまでです ! 」の直前に追加します。　　
+と書き換えます。  
+WP_DEBUGの項目がない場合は、「 編集が必要なのはここまでです ! 」の直前に追加します。  
 
 ##  審査に出すフォーム
 [Submit Your Theme or Theme Update to the Directory](https://wordpress.org/themes/upload/)
 
-審査待ちの状況　　
+審査待ちの状況  
 [New](https://themes.trac.wordpress.org/query?status=new)
 
 ## 国内テーマ開発者
